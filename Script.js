@@ -1,1 +1,1 @@
-
+alert("Welcome to the myonlinemeal.com!!");
