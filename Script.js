@@ -1,1 +1,2 @@
-
+// prompt for the users to enter theor name.........
+prompt("What is your name?");
