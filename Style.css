@@ -50,7 +50,7 @@ html{
     font-family: 'Baloo Bhai', cursive;
 }
 
-#navbar ul li{
+#navbar ul li{ 
     list-style: none;
     font-size: 1.3rem;
 }
@@ -78,7 +78,7 @@ html{
     align-items: center;
 }
 
-#home::before{
+#home::before{ 
     content: "";
     position: absolute;
     background: url('img7.jpg') no-repeat center center/cover;
@@ -107,7 +107,7 @@ html{
     margin: 34px;
     display: flex;
 }
-#services .box{
+#services .box{ 
     border: 2px solid brown;
     padding: 34px;
     margin: 2px 55px;
@@ -116,7 +116,7 @@ html{
     margin-bottom: 20px;
 }
 
-#services .box img{
+#services .box img{ 
    height: 160px;
    margin: auto;
    display: block;
@@ -125,10 +125,10 @@ html{
 #services .box p{
     font-family: 'Bree Serif', serif;
 
-}
+} 
 
 /* Clients Section */
-#client-section{
+#client-section{ 
     position: relative;
 }
 
@@ -178,13 +178,13 @@ html{
     align-items: center;
     padding-bottom: 34px;
 }
-#contact-box input,
+#contact-box input, 
 #contact-box textarea{
     width: 100%;
     padding: 0.5rem;
     border-radius: 9px;
     font-size: 1.1rem;
-}
+} 
 
 #contact-box form{
     width: 40%;
