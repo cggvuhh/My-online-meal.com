@@ -18,6 +18,7 @@ html{
     align-items: center;
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 #navbar::before{
@@ -38,8 +39,9 @@ html{
 }
 
 #logo img{
-    height: 59px;
+    height: 45px;
     margin: 3px 6px;
+    border-radius:50%;
 }
 
 
@@ -73,21 +75,10 @@ html{
     display: flex;
     flex-direction: column;
     padding:3px 200px;
-    height: 550px;
+    min-height: 60vh;
     justify-content: center;
     align-items: center;
-}
-
-#home::before{ 
-    content: "";
-    position: absolute;
-    background: url('img/bg1.jpg') no-repeat center center/cover;
-    height: 642px;
-    top:0px;
-    left:0px;
-    width: 100%;
-    z-index: -1;
-    opacity:0.89;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
 }
 
 #home h1{
@@ -99,7 +90,7 @@ html{
 #home p{
     color:white;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-family: 'Bree Serif', serif;
 }
 /* Services Section */
@@ -117,13 +108,16 @@ html{
 }
 
 #services .box img{ 
-   height: 160px;
+   height: 300px;
+   width: 100%;
    margin: auto;
    display: block;
 }
 
 #services .box p{
     font-family: 'Bree Serif', serif;
+    line-height: 1.6;
+    font-size: 1.2rem;
 
 } 
 
@@ -181,13 +175,18 @@ html{
 #contact-box input, 
 #contact-box textarea{
     width: 100%;
-    padding: 0.5rem;
+    margin-top: 0.4rem;
+    padding: 0.8rem;
     border-radius: 9px;
     font-size: 1.1rem;
 } 
 
 #contact-box form{
     width: 40%;
+}
+
+#contact .form-group{
+    margin: 1rem 0;
 }
 
 #contact-box label{
@@ -198,9 +197,11 @@ html{
 
 
 footer{
-    background: black;
+    font-family: 'Bree Serif', serif;
+    background: red;
     color: white;
-    padding: 9px 20px;
+    padding: 2rem;
+    font-size: 1.6rem;
 }
 
 /* Utility Classes */
@@ -219,7 +220,7 @@ footer{
 .btn{
     padding: 6px 20px;
     border: 2px solid white;
-    background-color: brown;
+    background-color: black;
     color: white;
     margin: 17px;
     font-size: 1.5rem;
@@ -229,4 +230,5 @@ footer{
 
 .center{
     text-align: center;
+    margin-top: 10px;
 }
