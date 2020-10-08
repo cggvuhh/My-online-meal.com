@@ -199,7 +199,8 @@ html{
 
 
 footer{
-    background: black;
+    font-family: 'Bree Serif', serif;
+    background: red;
     color: white;
     padding: 2rem;
     font-size: 1.6rem;
