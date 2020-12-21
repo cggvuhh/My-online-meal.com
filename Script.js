@@ -1,1 +1,1 @@
-prompt("What is your name?");
+prompt("Plz Enter your name?")
