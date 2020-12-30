@@ -68,6 +68,18 @@ html{
     color: black;
     background-color: white;
 }
+.cart{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.cart:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
 
 /* Home Section */
 #home{
